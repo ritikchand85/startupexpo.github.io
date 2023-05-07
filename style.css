@@ -1,0 +1,93 @@
+html{
+  background-color:gold;
+}
+.navigation{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  flex-wrap:wrap-reverse
+  
+}
+
+
+nav ul{
+  float:right;
+}
+nav ul li{
+  display:inline-block;
+  line-height:80px;
+  margin:0px 5px
+}
+nav ul li a{
+  color:red;
+  font-size:17px;
+  text-transform:uppercase;
+  
+}
+a.active,a:hover{
+  background:black;
+}
+
+.info h1{
+  display:flex;
+  justify-content:center;
+  color:gold;
+  background-color:black;
+  
+  padding:3px 3px;
+  merge:3px 3px;
+}
+.info p{
+  display:flex;
+  justify-content:space-around;
+  flex-flow:wrap;
+  
+  padding:10px 150px;
+  merge:3px 3px;
+  
+  color:white;
+  background-color:black;
+}
+.heading{
+   display:flex;
+  justify-content:center;
+  color:gold;
+  background-color:black;
+  height:100px;
+  padding:3px 3px;
+  merge:3px 3px;
+}
+.box{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  flex-flow:wrap;
+  background-color:silver;
+  box-sizing:border-box;
+}
+.formdesign{
+  display:flex;
+  align-items:center;
+}
+#about{
+  display:flex;
+  flex-direction:column;
+  border-size:30px;
+  border-style:solid;
+  border-color:black;
+  
+div.about-heading{
+  display:flex;
+  justify-content:space-around;
+  background-color:black;
+  color:gold;
+}
+h3.product{
+  display:flex;
+  justify-content: center;
+}
+div.about-content{
+  display:flex;
+align-items:center;
+  padding:20px;
+}
